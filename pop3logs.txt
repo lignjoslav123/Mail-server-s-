@@ -1,0 +1,229 @@
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:CAPA
+QUIT
+
+S:+OK Bye
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+C:AUTH
+
+S:-ERR bad command
+
+C:CAPA
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:USER gaser
+
+S:+OK User accepted
+
+C:PASS 123
+
+S:+OK Pass accepted
+
+C:QUIT
+
+S:+OK Bye
+
+S:-ERR bad command
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+C:AUTH
+
+S:-ERR bad command
+
+C:CAPA
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:USER gaser
+
+S:+OK User accepted
+
+C:PASS 123
+
+S:+OK Pass accepted
+
+C:STAT
+
+S:+OK 2 320
+
+C:LIST
+
+S:+OK 2 messages (320 octets)
+1 120
+2 200
+.
+
+C:UIDL
+
+S:+OK Unique-IDs follow...
+1 69
+2 43
+.
+
+C:RETR 1
+
+S:+OK Message text follows...
+From: nigger@localhost
+To: nigger@localhost
+Subject: wellcome
+
+ BAKA PRASE JE NAJCI GASER NA SVETU I DOBRO JE STO SE K1KA UBILA 
+.
+
+C:RETR 2
+
+S:+OK Message text follows...
+From: nigger@localhost
+To: nigger@localhost
+Subject: wellcome
+
+ BAKA PRASE JE NAJCI GASER NA SVETU I DOBRO JE STO SE K1KA UBILA 
+.
+
+C:QUIT
+
+S:+OK Bye
+
+S:-ERR bad command
+
+S:+OK pop3 ready ::ffff:127.0.0.1
+
+C:CAPA
+
+S:+OK Capability list follows
+USER
+UIDL
+.
+
+C:USER gaser
+
+S:+OK User accepted
+
+C:PASS 123
+
+S:+OK Pass accepted
+
+C:STAT
+
+S:+OK 2 320
+
+C:LIST
+
+S:+OK 2 messages (320 octets)
+1 120
+2 200
+.
+
+C:UIDL
+
+S:+OK Unique-IDs follow...
+1 69
+2 43
+.
+
+C:QUIT
+
+S:+OK Bye
+
+S:-ERR bad command
+

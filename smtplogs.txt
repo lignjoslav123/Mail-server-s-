@@ -1,0 +1,40 @@
+C:EHLO [127.0.0.1]
+
+S:250 Hello
+
+C:MAIL FROM:<gaser@localhost>
+
+S:
+250 OK
+
+C:RCPT TO:<bakaprase@localhost>
+
+S:250 OK
+
+C:DATA
+
+S:354 End data with <CR><LF>.<CR><LF>
+
+C:Message-ID: <d5f141c3-d625-008b-2431-771679c72349@localhost>
+Date: Tue, 7 Jun 2022 17:29:45 +0000
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.0
+Content-Language: en-US
+To: bakaprase@localhost
+From: gasER <gaser@localhost>
+Subject: NIGGA
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+1234
+
+
+S:250 Ok
+
+C:.
+
+C:QUIT
+
+S:221 Bye
+
